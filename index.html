@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradind system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1><span>Grading system</h1></span>
+        </div>
+
+
+        <label>DBMS</label><input class="marks dbms" type="number"><br>
+        <label> Computer Network </label> <input class="marks com" type="number"><br>
+        <label> Java</label> <input class="marks java" type="number"><br>
+        <label>Algorithm</label> <input class="marks alg" type="number"><br>
+        <label>Software Engineering</label><input class="marks sof" type="number"><br><br>
+
+        <button class="btn" onclick="total()">Total</button>
+        <button class="btn" onclick="avearge()">Average</button>
+        <button class="btn" onclick="grades()">Grade</button>
+
+    </div>
+
+    <div class="result">
+        <h1><span>Total</span></h1>
+        <div class="Total1">
+
+        </div>
+        <h1><span>Average</span></h1>
+        <div class="Average1">
+
+        </div>
+        <h1><span>Grade</span></h1>
+        <div class="Grade1">
+
+        </div>
+
+    </div>
+    <div class="verticle">
+        <div class="verticle1"></div>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://wallpapers.com/images/featured/hd-background-6y0ggs5rjs8ra0lv.jpg);
+    background-size: cover;
+}
+
+.container {
+    border: 2px solid black;
+    margin: 50px 10px 0 20px;
+    height: 480px;
+    width: 42%;
+    background-color: wheat;
+    float: left;
+    text-align: center;
+    border-radius: 70%;
+    padding-top: 30px;
+}
+
+.container span {
+    background-color: rgb(255, 0, 187);
+    color: black;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.container label {
+    font-weight: 700;
+    padding-right: 50px;
+}
+
+.container input {
+    height: 20px;
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+.dbms {
+    margin-left: 90px;
+}
+
+.java {
+    margin-left: 100px;
+}
+
+.alg {
+    margin-left: 60px;
+}
+
+.btn {
+    padding: 8px 25px 8px;
+    font-weight: 900;
+    border-radius: 20%;
+    margin: 50px 10px;
+    background-color: rgba(170, 0, 255, 0.972);
+
+}
+
+.result {
+    border: 2px solid black;
+    width: 20%;
+    margin-top: 150px;
+    float: left;
+    height: 380px;
+    background-color: hsl(39, 45%, 65%);
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+span {
+    background-color: rgb(255, 0, 187);
+    border-radius: 15px;
+    padding: 2px 12px;
+}
+
+.Total1 {
+    height: 70px;
+    font-weight: 800;
+    padding-top: 20px;
+
+}
+
+.Average1 {
+
+    height: 70px;
+    font-weight: 800;
+    padding-top: 20px;
+
+
+}
+
+.Grade1 {
+
+    height: 50px;
+    font-weight: 800;
+    padding-top: 20px;
+
+}
+
+.verticle {
+    margin-left: 23%;
+    height: 50px;
+    border-left: 2px solid #ff0000;
+}
+
+.verticle1 {
+    margin-left: 41%;
+    height: 150px;
+    border-left: 2px solid red;
+}
